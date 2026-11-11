@@ -2,7 +2,7 @@
 
 Tiny native NFO viewer for Apple Silicon Macs, written in Rust, with a Quick Look preview.
 
-By Jami Makkonen — https://github.com/jamzu98
+By Jami Makkonen; https://github.com/jamzu98
 
 ## Build
 
