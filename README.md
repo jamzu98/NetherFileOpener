@@ -4,6 +4,8 @@ Tiny native NFO viewer for Apple Silicon Macs, written in Rust, with a Quick Loo
 
 By Jami Makkonen; https://github.com/jamzu98
 
+![Nether File Opener showing samples/nether.nfo](docs/screenshot.png)
+
 ## Build
 
 ```sh
