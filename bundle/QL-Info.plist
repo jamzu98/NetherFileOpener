@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleExecutable</key><string>NetherQuickLook</string>
+	<key>CFBundleIdentifier</key><string>com.jamzu98.NetherFileOpener.QuickLook</string>
+	<key>CFBundleName</key><string>Nether File Opener Preview</string>
+	<key>CFBundleDisplayName</key><string>Nether File Opener Preview</string>
+	<key>CFBundlePackageType</key><string>XPC!</string>
+	<key>CFBundleShortVersionString</key><string>__VERSION__</string>
+	<key>CFBundleVersion</key><string>__VERSION__</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>LSMinimumSystemVersion</key><string>13.0</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionPointIdentifier</key><string>com.apple.quicklook.preview</string>
+		<key>NSExtensionPrincipalClass</key><string>NFOPreviewProvider</string>
+		<key>NSExtensionAttributes</key>
+		<dict>
+			<key>QLIsDataBasedPreview</key><true/>
+			<key>QLSupportsSearchableItems</key><false/>
+			<key>QLSupportedContentTypes</key><array><string>com.jamzu98.nfo</string></array>
+		</dict>
+	</dict>
+</dict>
+</plist>
